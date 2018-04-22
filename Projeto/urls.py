@@ -24,6 +24,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', hello),
     path('article/<int:year>', article),
-    path('person/', include(clientes_urls)),
+    path('persons/', include(clientes_urls)),
     path('pessoa/<str:nome>', fname2)
 ]
